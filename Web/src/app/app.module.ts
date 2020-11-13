@@ -9,6 +9,7 @@ import { ComponentsModule } from './components/components.module';
 
 import { WorkLayoutComponent} from './layouts/work-layout/work-layout.component';
 import { LoginComponent } from './login/login.component';
+import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     WorkLayoutComponent,
-    LoginComponent
+    LoginComponent,
+    CustomerComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

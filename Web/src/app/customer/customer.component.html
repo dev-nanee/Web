@@ -1,0 +1,157 @@
+<div class="contents_wrap">
+    <div class="contents_wrap_w">
+        <div class="basic_top">
+            <div class="basic_le">거래처 등록</div><!--//basic_le-->
+            <div class="basic_ri">
+                <ul>
+                    <li><a href="#"><img src="/assets/images/btn_top_input.png" alt="입력"></a></li>
+                    <li><a href="#"><img src="/assets/images/btn_top_del.png" alt="삭제"></a></li>
+                    <li><a href="#"><img src="/assets/images/btn_top_storage.png" alt="저장"></a></li>
+                    <li><a href="#"><img src="/assets/images/btn_top_excel.png" alt="엑셀저장"></a></li>
+                    <li><a href="#"><img src="/assets/images/btn_top_out.png" alt="나가기"></a></li>
+                </ul>
+            </div><!--//basic_ri-->
+        </div><!--//basic_top-->
+
+        <div class="basic_wrap_le">
+            <div class="basic_title">거래처 등록현황</div>
+
+            <div class="basic_search_wrap">
+                <div class="ch_form">
+                    <ul>
+                        <li class="le"><input type="radio" name="" id="" value="" checked="true"/> 거래처명</li>
+                        <li class="ri">
+                            <select id="" name= "" onChange="">
+                                <option value ="1" selected> 거래처분류</option>
+                                <option value ="2">납품처</option>
+                                <option value ="3">원재료 매입처</option>
+                                <option value ="4">부자재 매입처</option>
+                                <option value ="5">협력업체 및 외주가공</option>
+                                <option value ="6">설비 업체</option>
+                                <option value ="7">금형 업체</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="se_form">
+                    <input type="text" id="" name="" />
+                    <a href="#" onclick=""><img src="/assets/images/btn_search.png" alt="검색"/></a>
+                </div>
+            </div><!--//basic_search-->
+
+            <div class="tbl_basic_wrap">
+                <table class="tbl_basicA">
+                    <colgroup>
+                        <col width="10%"/>
+                        <col width="65%"/>
+                        <col width="25%"/>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th scope="col">No</th>
+                        <th scope="col">거래처명</th>
+                        <th scope="col">거래처분류</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>현대EP</td>
+                        <td>원재료 매입처</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>코오롱</td>
+                        <td>원재료 매입처</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>롯데</td>
+                        <td>원재료 매입처</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>금호화학</td>
+                        <td>원재료 매입처</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>삼양사</td>
+                        <td>원재료 매입처</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div><!--//tbl_basic_wrap-->
+
+        </div><!--//basic_wrap_le-->
+
+
+        <div class="basic_wrap_ri">
+            <div class="basic_title">거래처 등록</div>
+            <form action="" class="form-body">
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputCode">거래처 코드</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="inputCode" placeholder=""></div>
+
+                    <div class="showcase_area sta_left"><label for="inputClassification">거래처 분류</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="nputClassification" placeholder=""></div>
+                </div>
+                <div class="form-group ">
+                    <div class="showcase_area"><label for="inputNameKo">거래처명(한글)</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputNameKo" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputNameEn">거래처명(영어)</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputNameEn" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputCEOname">대표이사명</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputCEOname" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputAddress">주소</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputAddress" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputCorporateNum">법인등록번호</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputCorporateNum" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputBusinessNum">사업자등록번호</label></div>
+                    <div class="showcase_text_area sta_wide"><input type="text" class="form-control" id="inputBusinessNum" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputBusinessStatus">업태</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="inputBusinessStatus" placeholder=""></div>
+
+                    <div class="showcase_area sta_left"><label for="inputSectors">업종</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="inputSectors" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputMainPhone">대표전화</label></div>
+                    <div class="showcase_text_area"><input type="tel" class="form-control" id="inputMain Phone" placeholder=""></div>
+
+                    <div class="showcase_area sta_left"><label for="inputFax">팩스</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="inputFax" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputURL">홈페이지</label></div>
+                    <div class="showcase_text_area"><input type="URL" class="form-control" id="inputURL" placeholder=""></div>
+
+                    <div class="showcase_area sta_left"><label for="inputEmail">팩스</label></div>
+                    <div class="showcase_text_area"><input type="email" class="form-control" id="inputEmail" placeholder=""></div>
+                </div>
+                <div class="form-group">
+                    <div class="showcase_area"><label for="inputManager">담당자명</label></div>
+                    <div class="showcase_text_area"><input type="text" class="form-control" id="inputManager" placeholder=""></div>
+
+                    <div class="showcase_area sta_left"><label for="inputTel">담당자전화</label></div>
+                    <div class="showcase_text_area"><input type="tel" class="form-control" id="inputTel" placeholder=""></div>
+                </div>
+            </form>
+
+
+
+            <!------------------------------------------------------------------------------ //내용 끝// ------------------------------------------------------------------------------>
+        </div><!--//contents_wrap_w-->
+    </div><!--//contents_wrap-->

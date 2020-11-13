@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 import { WorkLayoutRoutes } from './work-layout.routing';
 
 import {HomeComponent} from '../../home/home.component';
+import {CustomerComponent} from '../../customer/customer.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import {HomeComponent} from '../../home/home.component';
       RouterModule.forChild(WorkLayoutRoutes),
     ],
   declarations: [
-    HomeComponent
+    HomeComponent,
+    CustomerComponent
   ]
 })
 
