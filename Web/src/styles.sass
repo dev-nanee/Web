@@ -1,0 +1,321 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css)
+html
+  width: 100%
+  height: 100%
+
+body
+  width: 100%
+  height: 100%
+  font-size: 14px
+  font-family: "Noto Sans KR",Dotum,"돋움",Helvetica,"Apple SD Gothic Neo",sans-serif
+  color: #444
+  margin: 0 auto
+  background: #fff
+
+*,
+::after,
+::before
+  box-sizing: border-box
+
+body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,p,form,fieldset,input,table,tr,th,td
+  margin: 0
+  padding: 0
+
+h1,h2,h3,h4,h5,h6
+  font-weight: 600
+
+ul,ol,li
+  list-style: none
+
+img, fieldset
+  border: none
+  vertical-align: top
+
+b
+  font-weight: 600
+
+legend, caption
+  position: absolute
+  left: -2000%
+
+textarea, button
+  vertical-align: middle
+
+input, select
+  vertical-align: middle
+  background: #fff
+  border: 1px solid #ccc
+  color: #333
+  font-size: 14px
+  padding: 5px
+
+textarea
+  padding: 3px
+  vertical-align: middle
+  background: #fff
+  border: 1px solid #475056
+  color: #333
+  font-size: 11px
+
+.checkbox
+  padding: 0
+  border: 0
+
+.disNone
+  display: none
+
+table
+  border-collapse: collapse
+
+strong
+  font-weight: 600
+  color: #444
+
+option
+  padding: 2px 5px
+
+p
+  margin-top: 0
+  margin-bottom: 1rem
+  color: #fff
+
+[tabindex="-1"]:focus
+  outline: 0 !important
+
+dl,
+ol,
+ul
+  margin-top: 0
+  margin-bottom: 1rem
+
+ol ol,
+ol ul,
+ul ol,
+ul ul
+  margin-bottom: 0
+
+
+blockquote
+  margin: 0 0 1rem
+
+
+b,
+strong
+  font-weight: bolder
+
+small
+  font-size: 80%
+
+a
+  color: #696ffb
+  text-decoration: none
+  background-color: transparent
+
+a:hover, a:active, a:focus
+  color: #1e27f9
+  text-decoration: none
+
+a:not([href]):not([tabindex])
+  color: inherit
+  text-decoration: none
+
+
+a:not([href]):not([tabindex]):focus,
+a:not([href]):not([tabindex]):hover
+  color: inherit
+  text-decoration: none
+
+a:not([href]):not([tabindex]):focus
+  outline: 0
+
+img
+  vertical-align: middle
+  border-style: none
+
+svg
+  overflow: hidden
+  vertical-align: middle
+
+
+button
+  border-radius: 0
+
+button:focus
+  outline: 1px dotted
+  outline: 5px auto -webkit-focus-ring-color
+
+
+button
+  margin: 0
+  font-family: inherit
+  font-size: inherit
+  line-height: inherit
+  overflow: visible
+  text-transform: none
+
+
+[type=button],
+[type=reset],
+[type=submit],
+button
+  -webkit-appearance: button
+
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled)
+  cursor: pointer
+
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner
+  padding: 0
+  border-style: none
+
+a,
+a:focus
+  -webkit-box-shadow: none
+  -moz-box-shadow: none
+  outline: 0
+
+
+.collapse.show
+  display: block
+
+a,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span
+  text-shadow: none
+
+
+[type=button]:focus,
+a:active,
+a:focus,
+a:visited,
+button::-moz-focus-inner
+  outline: 0
+
+
+a,
+a:active,
+a:checked,
+a:focus,
+a:hover,
+a:visited,
+body,
+button,
+button:active,
+button:hover,
+button:visited,
+div
+  box-shadow: none
+
+
+button,
+button:active,
+button:checked,
+button:focus,
+button:hover,
+button:visited
+  outline: 0
+  outline-offset: 0
+
+
+a:focus,
+input:focus
+  border-color: transparent
+  outline: 0
+  text-decoration: none
+
+::-webkit-scrollbar
+  display: none
+
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 100
+  src: url('/assets/fonts/NotoSansKR-Thin.woff2') format('woff2'), url('/assets/fonts/NotoSansKR-Thin.woff') format('woff'), url('/assets/fonts/NotoSansKR-Thin.otf') format('opentype')
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 300
+  src: url('/assets/fonts/NotoSansKR-Light.woff2') format('woff2'),  url('/assets/fonts/NotoSansKR-Light.woff') format('woff'), url('/assets/fonts/NotoSansKR-Light.otf') format('opentype')
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 400
+  src: url('/assets/fonts/NotoSansKR-Regular.woff') format('woff'), url('/assets/fonts/NotoSansKR-Regular.otf') format('opentype')
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 500
+  src: url('/assets/fonts/NotoSansKR-Medium.woff') format('woff'), url('/assets/fonts/NotoSansKR-Medium.otf') format('opentype')
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 700
+  src: url('/assets/fonts/NotoSansKR-Bold.woff') format('woff'), url('/assets/fonts/NotoSansKR-Bold.otf') format('opentype')
+
+@font-face
+  font-family: 'Noto Sans KR'
+  font-style: normal
+  font-weight: 900
+  src: url('/assets/fonts/NotoSansKR-Black.woff2') format('woff2'),  url('/assets/fonts/NotoSansKR-Black.woff') format('woff'),  url('/assets/fonts/NotoSansKR-Black.otf') format('opentype')
+
+
+label
+  margin:  .2rem 0 0 0
+
+.form-body
+  width:  90%
+  margin:  0 auto
+
+
+.form-group
+  display:  flex
+
+
+.form-control-duo
+  display:  block
+  width:  100%
+  height:  calc(1.5em + .75rem + 2px)
+  padding:  1.360rem .75rem
+  font-size:  1rem
+  font-weight:  400
+  line-height:  1.5
+  color:  #6c757d
+  background-color:  #F2F2F2
+  background-clip:  padding-box
+  border:  1px solid #B6B7BE
+  border-radius:  0 5px 5px 0
+  transition:  border-color .15s ease-in-out,box-shadow .15s ease-in-out
+
+
+.form-control
+  color:  #6c757d
+  background-color:  #F2F2F2
+  border:  1px solid #B6B7BE
+  border-radius:  0 5px 5px 0
+
+.showcase_area
+  width:  130px
+  text-align:  center
+  background-color:  #223C61
+  color:  #fff
+  flex-wrap:  wrap
+  line-height:  2.4
+  border-radius:  5px 0 0 5px
