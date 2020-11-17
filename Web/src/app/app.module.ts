@@ -9,20 +9,18 @@ import { ComponentsModule } from './components/components.module';
 
 import { WorkLayoutComponent} from './layouts/work-layout/work-layout.component';
 import { LoginComponent } from './login/login.component';
-import { CustomerComponent } from './customer/customer.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     RouterModule,
     AppRoutingModule,
-    ComponentsModule
+    ComponentsModule,
   ],
   declarations: [
     AppComponent,
     WorkLayoutComponent,
     LoginComponent,
-    CustomerComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
